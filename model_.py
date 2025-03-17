@@ -2,19 +2,7 @@ from openai import OpenAI
 from typing import Dict, Union
 
 servers_pool = {
-    # https://api.gpts.vin/pricing
-    'Common': {'api_key': 'sk-Zf8YtRXZ1U8aGwJbWQesWhXudYv6qmtmcn1hC69RkXlzwAbm', 'base_url': 'https://api.gpts.vin/v1'},
-    # 'Common': {'api_key': 'sk-r8vgbWY4rMOFpYbmJURjMXlB5uAYSRGisBRNHmk2bvxwpqux', 'base_url': 'https://api.gpts.vin/v1'},
-    # 'Common': {'api_key': 'sk-K4JQ7bPUAUePkPzWuqT7PDe0zUH3Dl4XXBJghRs4OIJDOUvN', 'base_url': 'https://api.gpts.vin/v1'},
-    
-    # https://gpulink.cc/ctrl-personal-center/setting
-    '零氪云': {'api_key': 'sk-yn_RESofo9C3ipox74B-iYWzPM7skltYSFYfVfPpjvs', 'base_url': 'https://api.gpulink.cc/v1'},
-
-    # https://cloud.siliconflow.cn/models
-    'SiliconCloud': {'api_key': 'sk-mpfdcbyqolnxgsmetcqvoygavtorawxxcjdrlfnjgnwarkbz', 'base_url': 'https://api.siliconflow.cn/v1'},
-
-    # https://www.dmxapi.com/
-    'DMXAPI': {'api_key': 'sk-KpD3OBY04XUK7AHF9Ltc5gCpA72QVyuxXIJIaGm6J47v0iTd', 'base_url': 'https://www.dmxapi.com/v1'}
+    'Common': {'api_key': 'xxxxxxxxxxxxxxxx', 'base_url': 'xxxxxxxxxxxxxxxx'},
 }
 
 class ChatModel(object):
