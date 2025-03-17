@@ -13,4 +13,5 @@ model_.py中servers_pool中填入自己的api. <br/>
 ```python
 python try.py
 ```
-您应该能观察到logging.txt中的变化.
+您应该能观察到logging.txt中的变化.<br/>
+`temp.jsonl`中是跑出来的结果文件.
