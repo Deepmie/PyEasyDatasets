@@ -1,0 +1,13 @@
+[
+    {
+        "model_name": "deepseek-r1",
+        "api_key": "sk-yn_RESofo9C3ipox74B-iYWzPM7skltYSFYfVfPpjvs",
+        "base_url": "https://api.gpulink.cc/v1"
+    },
+
+    {
+        "model_name": "deepseek-ai/DeepSeek-R1",
+        "api_key": "sk-mpfdcbyqolnxgsmetcqvoygavtorawxxcjdrlfnjgnwarkbz",
+        "base_url": "https://api.siliconflow.cn/v1"
+    }
+]
